@@ -3,7 +3,7 @@ const CronJob = require("cron").CronJob; // include part of the library, not all
 const mainWorker = new CronJob(
   "1 * * * * *",
   function() {
-    console.log("ALL YOUR BASE ARE BWLONG TO US");
+    console.log("ALL YOUR BASE ARE BELONG TO US");
   },
   null,
   false,
